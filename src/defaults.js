@@ -275,7 +275,7 @@ JSONEditor.plugins = {
 };
 
 // Default per-editor options
-$each(JSONEditor.defaults.editors, function(i,editor) {
+$.each(JSONEditor.defaults.editors, function(i,editor) {
   JSONEditor.defaults.editors[i].options = editor.options || {};
 });
 
